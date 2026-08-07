@@ -2,6 +2,10 @@
 
 All notable changes to the protocol will be documented in this file.
 
+## 2.2
+
+- add `422` error code to `POST /api/localsend/v2/upload` when the checksum (`sha256`) does not match
+
 ## 2.1
 
 - add `pin` query parameter
